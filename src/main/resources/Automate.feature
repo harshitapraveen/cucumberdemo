@@ -11,7 +11,7 @@ Feature: Login functionality
     Then the item will be displayed in the cart
  
  
-  @example
+  @example1
   Scenario Outline: Login functionality
   Given user navigates to the Pharmeasy website
   When user clicks on select pincode
