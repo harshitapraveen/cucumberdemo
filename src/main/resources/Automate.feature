@@ -1,6 +1,5 @@
 #Author: harshita praveen
 Feature: Login functionality
-  Test the login functionality of sdet university
 
   @login
   Scenario:  Test the login functionality of sdet university
@@ -10,9 +9,8 @@ Feature: Login functionality
     When user clicks on the required item
     And clicks on add to cart
     Then the item will be displayed in the cart
-    
-    
-       
+ 
+ 
   @example
   Scenario Outline: Login functionality
   Given user navigates to the Pharmeasy website
@@ -36,10 +34,7 @@ Feature: Login functionality
 		#|500012                      |
 		
 		
-  @guru99
-  Scenario: Learning website
-  Given user navigates to the learning website
-  When user clicks on Sap course
+  
   
   
       
